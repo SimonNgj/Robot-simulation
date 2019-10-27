@@ -263,8 +263,6 @@ void CSCARA_robotDlg::OnTimer(UINT_PTR nIDEvent)
 		float z = 5;
 
 		q3 = z - d1 + d3;
-		c2 = (((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2));
-		s2 = sqrt(1 - (c2*c2));
 		q2 = (acos((((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2))));
 		q21 = q2*(180 / pi);
 		c1 = (a1*x + a2*(x*cos(q2) + y*sin(q2))) / (x*x + y*y);
@@ -299,8 +297,6 @@ void CSCARA_robotDlg::OnTimer(UINT_PTR nIDEvent)
 		float z = 20 + 3 * t1;
 
 		q3 = z - d1 + d3;
-		c2 = (((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2));
-		s2 = sqrt(1 - (c2*c2));
 		q2 = acos((((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2)));
 		q21 = q2*(180 / pi);
 		c1 = (a1*x + a2*(x*cos(q2) + y*sin(q2))) / (x*x + y*y);
@@ -335,8 +331,6 @@ void CSCARA_robotDlg::OnTimer(UINT_PTR nIDEvent)
 		float z = 50;
 
 		q3 = z - d1 + d3;
-		c2 = (((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2));
-		s2 = sqrt(1 - (c2*c2));
 		q2 = acos((((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2)));
 		q21 = q2*(180 / pi);
 		c1 = (a1*x + a2*(x*cos(q2) + y*sin(q2))) / (x*x + y*y);
@@ -371,8 +365,6 @@ void CSCARA_robotDlg::OnTimer(UINT_PTR nIDEvent)
 		float z = 50;
 
 		q3 = z - d1 + d3;
-		c2 = (((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2));
-		s2 = sqrt(1 - (c2*c2));
 		q2 = acos((((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2)));
 		q21 = q2*(180 / pi);
 		c1 = (a1*x + a2*(x*cos(q2) + y*sin(q2))) / (x*x + y*y);
@@ -407,8 +399,6 @@ void CSCARA_robotDlg::OnTimer(UINT_PTR nIDEvent)
 		float z = 50;
 
 		q3 = z - d1 + d3;
-		c2 = (((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2));
-		s2 = sqrt(1 - (c2*c2));
 		q2 = acos((((x*x + y*y) - (a1*a1 + a2*a2)) / (2 * a1*a2)));
 		q21 = q2*(180 / pi);
 		c1 = (a1*x + a2*(x*cos(q2) + y*sin(q2))) / (x*x + y*y);
